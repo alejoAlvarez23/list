@@ -1,0 +1,12 @@
+#check{
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+#add{
+    margin: 0;
+    border-style: none;
+    text-align: center;
+    padding: 20px 5px ;
+    background-color: rgba(255, 255, 255, 0);
+}

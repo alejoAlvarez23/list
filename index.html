@@ -1,20 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Bootstrap -->
-<!--    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
--->    <link rel="stylesheet" href="./css/bootstrap.min.css">
+<!--    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">-->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+
     <title>list</title>
 </head>
-  <body class="container text-center">
-  <div class="row">
-    <div class="col-md-4 col-sm-12" >
-    <header >
+  <body class=" text-center ">
+    <div class="row mt-md-5 mt-sm-2" >
+        <div class="col-md-4 col-sm-12 align-items-center p-5" >
+
+    <header>
 
         <div class="">miercoles 29 de nov
-        <h1>Hola, Alejo Alvrz</h1>
+        <h1>Hola, Alejo Alavrez </h1>
         <p>vamos a cumplir las metas del dia</p>
         </div>
     
@@ -22,68 +25,51 @@
 
  <section >
     
-    <input type="text" placeholder="agregar tarea" class="agregar_tarea"><button>v</button></input>
+    <input class="form-control" type="text" placeholder="agregar tarea" aria-label="default input example">
 
     
     
  </section >
     </div>
 
-    <div class="col-md-8 col-sm-12" >
+    <table class="table">
+    <div class="col-md-8 col-sm-12 text-md-start " >
+ 
+    <h3 class="text-center">Tareas pendientes . . .</h3 >
 
- <table class="col-md-4 col-sm-12 text-center">
-    <h4>tareas pendientes del dia</h4 >
+        <ul class="list-group">
 
-        <ul class="lista">
-            <li>
-                <p>
-                <button class=""></button>
-                    tarea a cumplir
-                <button class="">x</button>
-               </p>
-            </li>
-        </ul>    <ul class="lista">
-            <li>
-                <p>
-                <button class=""></button>
-                    tarea a cumplir
-                <button class="">x</button>
-               </p>
-            </li>
-        </ul>    <ul class="lista">
-            <li>
-                <p>
-                <button class=""></button>
-                    tarea a cumplir
-                <button class="">x</button>
-               </p>
-            </li>
-        </ul>    <ul class="lista">
-            <li>
-                <p>
-                <button class=""></button>
-                    tarea a cumplir
-                <button class="">x</button>
-               </p>
-            </li>
-        </ul>
+            <li class="list-group-item list-group-item-action list-group-item-danger">
+                <div class="btn-group w-100" role="group" aria-label="Basic mixed styles example">
+                    <button type="button" class="btn btn-success "><img src="svg/check-circle.svg" alt=""></button>
 
-    </table>
-</div>
+                    <p type="" class="text-center pt-2 px-1 w-75">Lorem  debitis laborum.</p>
 
-    <!-- <div class="container">
-        <div class="row">
-            <div class="col-md-4">
-                <h1>tutorial de bootstrap</h1>
-            </div>
-            <div class="col-md-4">
-                <h1>tutorial de bootstrap</h1>
-            </div>
-            <div class="col-md-4">
-                <h1>tutorial de bootstrap</h1>
-            </div>
-        </div>
-    </div> -->
+                    <button type="button" class="btn btn-danger "><img src="./svg/trash-fill.svg" alt=""></button>
+                  </div>
+            </li>
+
+            <li class="list-group-item list-group-item-action list-group-item-light">
+                <div class="btn-group w-100" role="group" aria-label="Basic mixed styles example">
+                    <button type="button" class="btn btn-success "><img src="svg/check-circle.svg" alt=""></button>
+
+                    <p type="" class="text-center pt-2 px-1 w-75">Lorem  debitis laborum.</p>
+
+                    <button type="button" class="btn btn-danger "><img src="./svg/trash-fill.svg" alt=""></button>
+                  </div>
+            </li>
+
+            <li class="list-group-item list-group-item-action list-group-item-info">
+                <div class="btn-group w-100" role="group" aria-label="Basic mixed styles example">
+                    <button type="button" class="btn btn-success "><img src="svg/check-circle.svg" alt=""></button>
+
+                    <p type="" class="text-center pt-2 px-1 w-75">Lorem  debitis laborum.</p>
+
+                    <button type="button" class="btn btn-danger "><img src="./svg/trash-fill.svg" alt=""></button>
+                  </div>
+            </li>
+          </ul>
+
 
     </div>
   </body>
