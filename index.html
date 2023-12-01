@@ -14,36 +14,49 @@
     <div class="row mt-md-5 mt-sm-2" >
         <div class="col-md-4 col-sm-12 align-items-center p-5" >
 
+          <!-- informacion de usuario -->
     <header>
 
         <div class="">miercoles 29 de nov
-        <h1>Hola, Alejo Alavrez </h1>
+        <h1 class="nombre">Hola, Alejo Alvarez</h1>
         <p>vamos a cumplir las metas del dia</p>
         </div>
     
     </header>
+<!--------------------------------------->
 
- <section >
-    
-    <input class="form-control" type="text" placeholder="agregar tarea" aria-label="default input example">
 
+    <!-- agregar tareas -->
+
+ <section class="navbar" >
     
-    
+      <form class="d-flex vw-100 border-bottom" role="search">
+        <input  id="input" class="form-control  border-0" type="search" placeholder="agregar tarea" aria-label="Search">
+        <button id="btnAdd" class="btn btn-outline-info border-0" type="submit">+</button>
+      </form>
+
  </section >
+
+ <!------------------------>
+    
     </div>
+
+
+    <!-- tareas pendientes -->
+
 
     <table class="table">
     <div class="col-md-8 col-sm-12 text-md-start " >
  
-    <h3 class="text-center">Tareas pendientes . . .</h3 >
+    <h3 class="text-center ">Tareas pendientes . . .</h3 >
 
-        <ul class="list-group">
+        <ul class="list-group ">
 
-            <li class="list-group-item list-group-item-action list-group-item-danger">
+            <!-- <li class="list-group-item list-group-item-action list-group-item-danger">
                 <div class="btn-group w-100" role="group" aria-label="Basic mixed styles example">
-                    <button type="button" class="btn btn-success "><img src="svg/check-circle.svg" alt=""></button>
+                    <button id="ok" type="button" class="btn btn-success "><img src="svg/check-circle.svg" alt=""></button>
 
-                    <div id="tarea" class="text-center pt-2 px-1 w-75 bg-"><s>Lorem  debitis laborum.</s></div>
+                    <div id="tarea" class="text-center pt-2 px-1 w-75 "><s>Lorem  debitis laborum.</s></div>
 
                     <button type="button" class="btn btn-danger "><img src="./svg/trash-fill.svg" alt=""></button>
                   </div>
@@ -63,15 +76,17 @@
                 <div class="btn-group w-100" role="group" aria-label="Basic mixed styles example">
                   <button type="button" class="btn btn-success "><img src="svg/check-circle.svg" alt=""></button>
 
-                  <div id="tarea" class="text-center pt-2 px-1 w-75 bg-"><s>Lorem  debitis laborum.</s></div>
+                  <div id="tarea" class="text-center pt-2 px-1 w-75 bg-">Lorem  debitis laborum.</div>
 
                   <button type="button" class="btn btn-danger "><img src="./svg/trash-fill.svg" alt=""></button>
                   </div>
-            </li>
+            </li> -->
           </ul>
 
 
     </div>
     <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/funciones.js"></script>
+
   </body>
-</html>
+</html
